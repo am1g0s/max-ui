@@ -23,4 +23,5 @@ export * from './Switch';
 export * from './Tappable';
 export * from './Textarea';
 export * from './ToolButton';
+export * from './Tooltip';
 export * from './Typography';

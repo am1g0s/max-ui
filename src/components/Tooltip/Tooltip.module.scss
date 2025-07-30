@@ -1,0 +1,24 @@
+.Tooltip {
+  --tooltip-background: var(--background-surface-floating);
+  padding: 10px;
+  border-radius: 12px;
+  background-color: var(--tooltip-background);
+  color: var(--text-primary);
+  box-shadow: 0 8px 24px 0 rgb(0 0 0 / 0.1);
+  position: absolute;
+  z-index: 1000;
+}
+
+.Tooltip_mode_dark {
+  box-shadow: none;
+}
+
+.Tooltip_platform_ios.Tooltip_mode_dark {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+.Tooltip__arrow {
+  position: absolute;
+  color: var(--tooltip-background);
+}
