@@ -1,0 +1,44 @@
+.ModalHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  box-sizing: border-box;
+  padding: var(--spacing-size-m);
+}
+
+.ModalHeader::before {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: '';
+  width: 36px;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--background-overlay);
+}
+
+.ModalHeader__before,
+.ModalHeader__after {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.ModalHeader__before {
+  justify-content: flex-start;
+}
+
+.ModalHeader__after {
+  justify-content: flex-end;
+}
+
+.ModalHeader__children {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  white-space: nowrap;
+}
