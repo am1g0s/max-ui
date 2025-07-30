@@ -18,6 +18,7 @@ export * from './Panel';
 export * from './Ripple';
 export * from './SearchInput';
 export * from './Spinner';
+export * from './Steps';
 export * from './SvgButton';
 export * from './Switch';
 export * from './Tappable';
