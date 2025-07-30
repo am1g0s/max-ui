@@ -14,6 +14,7 @@ export * from './Grid';
 export * from './IconButton';
 export * from './Input';
 export * from './MaxUI';
+export * from './Modal';
 export * from './Panel';
 export * from './Ripple';
 export * from './SearchInput';
